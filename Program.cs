@@ -26,7 +26,11 @@ namespace AddNamespaceToClasses
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
                 Console.ResetColor();
+                Console.ReadLine();
             }
         }
 
@@ -91,7 +95,6 @@ namespace AddNamespaceToClasses
                     }
                 }
             }
-
         }
 
         public static void GetUserInput(out string rootDirectory, out string searchString, out string namespaceToAdd)

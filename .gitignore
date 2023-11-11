@@ -5,3 +5,5 @@
 /obj
 /bin/Debug/net6.0
 /.vs
+/Properties/PublishProfiles
+/bin/Release/net6.0
